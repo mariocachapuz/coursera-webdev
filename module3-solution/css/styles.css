@@ -1,0 +1,101 @@
+body {
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #7C9885;
+    background-color: #ccc;
+}
+
+
+/** header **/
+
+#header-nav {
+    background-color: #7C9885;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0 0 10px #000;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #B5B682;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: #B5B682;
+    font-weight: bolder;
+    font-size: 1.8em;
+    text-shadow: .5px .5px .5px #000;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    /* text-shadow: 1px 1px 1px #f4f5b3; */
+}
+
+#nav-list {
+    background-color: #B5B682;
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: #586b5e;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #586b5e;
+    background-color: #f4f5b3;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #ccc;
+}
+
+
+/** end of header */
+
+
+/** main page **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: #d9c398;
+    color: #586b5e;
+    margin-bottom: 60px;
+    box-shadow: 1px 1px 5px #b09d79;
+}
+
+
+/** end of main page **/
